@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: rgba(0, 153, 255, 0.912);
+    font-size: 50pt;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.icons a{
+    padding: 20px;
+    color: black;
+}
+
+.icons a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
